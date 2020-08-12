@@ -1,0 +1,741 @@
+@font-face {
+  font-family: "Muller Light"; 
+  src: url("");
+  src: url("MullerLight.eot") format("embedded-opentype"), 
+  url("MullerLight.woff") format("woff"), 
+  url("MullerLight.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Muller Bold"; 
+  src: url("");
+  src: url("MullerBold.eot") format("embedded-opentype"), 
+  url("MullerBold.woff") format("woff"), 
+  url("MullerBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Muller Regular"; 
+  src: url("");
+  src: url("") format("embedded-opentype"), 
+  url("") format("woff"), 
+  url("") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Muller Extra Bold";
+  src: url("");
+  src: url("MullerExtraBold-1.eot") format("embedded-opentype"),
+  url("MullerExtraBold-1.woff") format("woff"),
+  url("MullerExtraBold-1.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+
+.min-price img, .sub-calendar-text img, .sub-payment-text img {
+  width: 10px;
+  padding-bottom: 3px;
+}
+.delivery-way {
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 166px;
+  width: 45%;
+}
+.delivery-title {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.del-advantage {
+  font-size: 16px;
+}
+.delivery-img {
+  width: 14%;
+  padding-top: 25px;
+  text-align: center;
+}
+.SDEK {
+  width: 50%;
+}
+.delivery-text {
+  width: 90%;
+}
+.delivery-content .row a {
+  text-decoration: underline;
+}
+.min-price {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.calendar-title {
+  font-size: 28px;
+  padding-bottom: 25px;
+  font-family: "Muller Extra Bold";
+}
+.season-delivery>div>a{
+  transition: color 0.3s linear; 
+}
+
+.season-delivery>div>span{
+  font-family: "Muller Bold";
+  font-size: 24px;
+  line-height: 1.3;
+}
+.spring2 {
+  margin-bottom: 30px !important;
+  padding-bottom: 0px !important;
+}
+.autumn1 {
+  margin-bottom: 10px!important;
+}
+.calendar-img {
+  width: 47%;
+}
+.season-delivery>div {
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60%;
+  color: #000 !important;
+  transition: background-color 0.3s linear;
+  transition: box-shadow 0.3s linear;
+}
+.season-delivery a:hover {
+  color: #ff6989 !important;
+}
+.season-delivery>div:hover {
+  background-color: #ffd7e3;
+  color: #ff6989;
+  -webkit-box-shadow: 0px 0px 19px 15px rgba(255,215,227,1);
+  -moz-box-shadow: 0px 0px 19px 15px rgba(255,215,227,1);
+  box-shadow: 0px 0px 19px 15px rgba(255,215,227,1);
+}
+.calendar .row {
+  padding-bottom: 20px;
+}
+.sub-calendar-text, .sub-payment-text {
+  font-size: 24px;
+  font-family: "Muller Bold";
+}
+.calendar {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.delivery-content .payment, .delivery-content .check {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.payment-title, .check-title {
+  font-family: "Muller Extra Bold";
+  font-size: 25px;
+}
+.online-pay, .cash-pay{
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
+  padding-top: 20px;
+}
+.online-pay-text li {
+  line-height: 1.3;
+}
+.online-title, .cash-title {
+  padding-left: 22px;
+  font-size: 20px;
+  font-family: "Muller Bold";
+}
+.sub-payment-text {
+  padding-top: 20px;
+}
+.pass-good {
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
+}
+.pass-good-img {
+  width: 15%;
+  padding-left: 15px;
+}
+.pass-good-text {
+  width: 65%;
+}
+.check-title {
+  padding-bottom: 20px;
+}
+.pass-good-text span {
+  font-size: 20px;
+  font-family: "Muller Bold";
+}
+.support {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.support-btn-area {
+  background-image: url("");
+  background-repeat: no-repeat;
+  height: 170px;
+  background-position: center center;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  width: 100%;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.support-btn {
+  background-color: #53bed0;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: -65px;
+  margin-bottom: -30px;
+  text-decoration: none !important;
+}
+.success {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #e5fbff;
+  font-family: "Muller Extra Bold";
+  font-size: 20px;
+  text-align: center;
+}
+.delivery-content a{
+  transition: color 0.3s linear;
+  text-decoration: underline;
+}
+ul>li {
+  color: #53bed0;
+}
+ul>li>span {
+  color: #000!important;
+}
+.box-footer .row div>span {
+  font-family: "Muller Bold";
+  font-size: 18px;
+}
+.nav-footer {
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
+  width: 100%;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  padding-top: 25px;
+}
+.nav-footer a {
+  font-family: "Muller Light";
+  color: #1f2a37;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding-bottom: 10px;
+  transition: color 0.3s linear;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.addres {
+  padding-top: 25px;
+  width: 65%;
+}
+.google-play, .apple{
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px ;
+}
+.apple{
+  margin: 0;
+}
+.phone-block a {
+  text-decoration: none;
+  font-family: "Muller Bold";
+  font-size: 27px;
+  color: #009eb8;
+}
+.phone-block img {
+  width: 19px;
+  padding-bottom: 11px;
+  margin-right: 5px;
+}
+.box-footer .copyright {
+   text-align: left; 
+   color: #000;
+}
+.nav-footer .elem-check-order:after {
+  display: none;
+}
+.nav-footer .elem-check-order {
+  text-transform: none;
+  padding: 0;
+  color: #000;
+  transition: color 0.3 linear; 
+}
+.elem-check-order:hover, .elem-check-order:focus {
+  outline: none;
+  color: #3393bc;
+  text-decoration: none;
+}
+.box-footer .row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-footer :last-child {
+  border-bottom: none;
+}
+.footer-cat {
+  width: 19%;
+  padding-right: 100px;
+}
+.footer-cont {
+  padding-left: 80px;
+  width: 31%;
+}
+
+.elem-heading {
+  padding-top: 20px;
+}
+.subtitle-page {
+  padding-bottom: 20px;
+}
+@media (max-width: 1281px) {
+  .calendar-img {
+    width: 39%;
+  }
+  .year {
+    padding: 70px 20px !important;
+  }
+  .month {
+    height: 95px !important;
+  }
+  .month-4 {background-image: url("" ); -webkit-background-size: 215px;
+    background-size: 185px !important; }
+  .month-5 {background-image: url("" ); -webkit-background-size: 215px;
+    background-size: 185px !important; }
+  .month.pink {
+    -webkit-background-size: 185px;
+    background-size: 185px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .season-delivery>div {
+    width: 100%;
+  }
+  .pass-good-img {
+    width: 18%;
+  }
+  .pass-good-text {
+    width: 80%;
+  }
+  .phone-block a {
+    font-size: 20px;
+  }
+  .box-footer .elem-check-order {
+    font-size: 13.5px;
+    max-width: 100%;
+    text-align: left;
+    padding-left: 0px;
+  }
+  .addres {
+    width: 85%;
+  }
+  .sub-calendar-text, .sub-payment-text {
+    font-size: 21px;
+  }
+  .delivery-way {
+    width: 50%;
+  }
+  .month {
+    height: 95px !important;
+  }
+  .year {
+    width: 100% !important;
+    padding: 65px 20px !important;
+  }
+  .calendar-img {
+    width: 47% !important;
+  }
+}
+@media (max-width: 992px) {
+  .elem-heading {
+    padding-top: 0; 
+  }
+  .delivery-way {
+    width: 49%;
+  }
+  .min-price {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .calendar .row {
+    display: inline-flex;
+    width: 100%;
+  }
+  .season-delivery>div {
+    padding-left: 10px;
+    font-size: 12px;
+  }
+  .season-delivery>div>span {
+    font-size: 18px;
+  }
+  .spring2 {
+    margin-bottom: 10px !important;
+  }
+  .sub-calendar-text, .sub-payment-text {
+    font-size: 16px;
+  }
+  .calendar-title {
+    font-size: 24px;
+    padding-bottom: 15px;
+    font-family: "Muller Extra Bold";
+  }
+  .elem-heading h1, .payment-title {
+    font-size: 24px;
+  }
+  .subtitle-page {
+    padding-bottom: 10px;
+    margin-top: 20px;
+  }
+  .pass-good-img {
+    width: 12%;
+  }
+  .pass-good-text span {
+    font-size: 18px;
+  }
+  .pass-good {
+    padding-bottom: 30px;
+  }
+  .payment, .check {
+    padding-bottom: 0px;
+  }
+  .support-title {
+    padding-bottom: 20px;
+  }
+  .box-footer .row>div {
+    width: 49%;
+    padding: 0;
+    display: inline-block;
+    padding-bottom: 20px;
+  }
+  .box-footer .custom-cols-sm [class*="col-xs-12"] .nav-footer a:nth-child(even) {
+    padding-left: 0px;
+  }
+  .box-footer .custom-cols-sm [class*="col-xs-12"] .nav-footer a {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .nav-footer {
+    width: 90%;
+  }
+  .box-footer .custom-cols-sm [class*="col-xs-12"] .nav-footer {
+    margin-left: 0px;
+  }
+  .box-footer .custom-cols-sm [class*="col-xs"] {
+    float: left; 
+  }
+  .google-play, .apple {
+    margin-top: 25px;
+    padding: 10px 0px;
+    background-color: #f4f4f4;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    width: 47%;
+    display: inline-block;
+  }
+  .apple {
+    padding-top: 7px;
+  }
+  .google-play img, .apple img {
+    width: 70%;
+  }
+  .box-footer .copyright {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 13px;
+    color: #888;
+    line-height: 1.5;
+  }
+  .calendar-img {
+    width: 60% !important;
+  }
+  .year {
+    padding: 50px 20px !important;
+  }
+  .month {
+    height: 80px !important;  
+  }
+  .month-4 {background-image: url("" ); -webkit-background-size: 155px;
+    background-size: 155px !important; }
+  .month-5 {background-image: url("" ); -webkit-background-size: 155px;
+    background-size: 155px !important; }
+  .month.pink {
+    -webkit-background-size: 155px;
+    background-size: 155px !important;
+  }
+}
+@media (max-width: 768px) {
+  .calendar-img {
+    width: 50% !important;
+  }
+  .year {
+    width: 100% !important;
+    padding: 40px 20px !important;
+  }
+  .month {
+    height: 70px !important;
+  }
+  .month-4 {background-image: url("" ); -webkit-background-size: 135px;
+    background-size: 135px !important; }
+  .month-5 {background-image: url("" ); -webkit-background-size: 135px;
+    background-size: 135px !important; }
+  .month.pink {
+    -webkit-background-size: 135px;
+    background-size: 135px !important;
+  }
+}
+@media (max-width: 426px) {
+  .delivery-way {
+    width: 100%;
+  }
+  .calendar-img {
+    width: 100% !important;
+  }
+  .season-delivery{
+    width: 100%;
+  }
+  .sub-calendar-text br {
+    display: none;
+  }
+  .pass-good-img {
+    width: 15%;
+    margin-right: 20px;
+  }
+  .pass-good-text {
+    width: 75%;
+  }
+  .calendar .row {
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+  }
+  .box-footer .copyright {
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .box-footer .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 10px;
+  }
+  .phone-block a {
+    font-size: 17px;
+  }
+  .phone-block img {
+    width: 17px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+  }
+  .schedule {
+    font-size: 12px;
+  }
+  .apple {
+    padding-top: 10px;
+  }
+  .box-footer .row>div {
+    padding-bottom: 0px;
+  }
+  .delivery-way br{
+    display: none;
+  }
+  .season-delivery>div {
+    font-size: 15px;
+  }
+  .season-delivery>div {
+    padding-left: 0px;
+  }
+  .year {
+    width: 100%;
+    padding: 40px 20px;
+  }
+  .month {
+    height: 70px !important;
+  }
+}
+@media (max-width: 376px) {
+  .google-play, .apple {
+    margin-top: 25px;
+    padding: 10px 0px;
+    background-color: #f4f4f4;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    width: 100%;
+    display: inline-block;
+  }
+  .apple {
+    padding-top: 6px;
+  }
+  .year {
+    width: 92%;
+    padding: 40px 20px !important;
+  }
+  .month-4 {background-image: url("" ); -webkit-background-size: 135px;
+    background-size: 135px !important; }
+  .month-5 {background-image: url("" ); -webkit-background-size: 135px;
+    background-size: 135px !important; }
+  .month.pink {
+    -webkit-background-size: 135px;
+    background-size: 135px !important;
+  }
+}
+@media (max-width: 321px) {
+  .min-price {
+    font-size: 15px;
+  }
+  .sub-calendar-text, .sub-payment-text {
+    font-size: 15px;
+  }
+  .sub-payment-text {
+    padding-bottom: 30px;
+  }
+  .pass-good-img {
+    display: none;
+  }
+  .pass-good-text {
+    width: 100%;
+  }
+  .support-btn-area {
+    height: 110px;
+  }
+  .support-btn {
+    font-size: 14px;
+  }
+  .success {
+    font-size: 15px;
+  }
+  .box-footer .row>div {
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+    padding-bottom: 20px;
+  }
+  .addres {
+    width: 100%;
+  }
+  .google-play, .apple {
+    margin-top: 25px;
+    padding: 20px 0px;
+    background-color: #f4f4f4;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    width: 100%;
+    display: inline-block;
+  }
+  .apple {
+    padding-top: 10px;
+  }
+  .year {
+    width: 92%;
+    padding: 30px 20px !important;
+  }
+  .month {
+    height: 60px !important;
+  }
+  .month-4 {background-image: url("" ); -webkit-background-size: 115px;
+    background-size: 115px !important; }
+  .month-5 {background-image: url("" ); -webkit-background-size: 115px;
+    background-size: 115px !important; }
+  .month.pink {
+    -webkit-background-size: 115px;
+    background-size: 115px !important;
+  }
+}
+.year {
+  background: url("");
+  background-repeat: no-repeat;
+  width: 94%;
+  height: 100%;
+  padding: 70px 20px;
+  display: inline-block; 
+}
+.month {
+    width: 32%;
+    height: 120px;
+    display: inline-block;
+    /* display: inline-flex; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*transition: background 3s ease;*/
+}
+.month-1 {background-image: url("" ); }
+.month-2 {background-image: url("" ); }
+.month-3 {background-image: url("" ); }
+.month-4 {background-image: url("" ); -webkit-background-size: 215px;
+  background-size: 215px; }
+.month-5 {background-image: url("" ); -webkit-background-size: 215px;
+  background-size: 215px; }
+.month-6 {background-image: url("" ); }
+.month-7 {background-image: url("" ); }
+.month-8 {background-image: url("" ); }
+.month-9 {background-image: url("" ); }
+.month-10 {background-image: url("" ); }
+.month-11 {background-image: url("" ); }
+.month-12 {background-image: url("" ); }
+
+.month-1.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-2.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-3.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-4.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-5.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-6.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-7.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-8.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-9.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-10.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-11.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }
+.month-12.pink {background-image: url("" );-webkit-background-size: 215px;
+background-size: 215px; }

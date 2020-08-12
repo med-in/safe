@@ -1,0 +1,68 @@
+@media (max-width: 480px)
+{
+    .list-snippets .box-snippet {
+        margin-left: 8px;
+        width: 45.45%;
+        margin-bottom: 15px;
+    }
+
+    .list-snippets .box-snippet .info-wrapper
+    {
+        padding: 5px 10px 50px;
+    }
+
+    .list-snippets .add-bask-form-list .clearfix
+    {
+        height: auto;
+    }
+
+    .list-snippets .box-snippet .info-wrapper .elem-to_cart
+    {
+        font-size: 10px;
+        line-height: normal;
+        padding: 10px 0 10px 34px;
+        /*padding-top: 3px;*/
+    }
+
+    .list-snippets .elem-to_cart:before
+    {
+        left:7px;
+    }
+
+    .list-snippets .box-snippet .info-wrapper .elem-counter
+    {
+        float:left;
+    }
+
+    .list-snippets .box-snippet .info-wrapper .prod-price
+    {
+        margin-left:20px;
+    }
+    .list-snippets .box-snippet .info-wrapper .elem-counter
+    {
+        margin-left: 10px;
+    }
+
+    .list-snippets.has-types .elem-types
+    {
+        margin-top:35px;
+    }
+
+    .list-snippets .elem-counter .unit
+    {
+        width: 60px;
+        margin-left: 0;
+    }
+
+    .list-snippets .badge-card__title
+    {
+        right: 58px;
+        width: 60%;
+        font-size: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .list-snippets .add-bask-form-list .clearfix {
+        height: 65px;
+    }
+}

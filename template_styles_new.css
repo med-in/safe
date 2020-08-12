@@ -1,0 +1,292 @@
+.box-product .product-controls.action-item {
+  text-align: center;
+  padding: 24px 30px 95px;
+  height: auto;
+}
+@media (max-width: 1279px) {
+.box-product .product-controls .prod-price_old  ~ .counter .elem-counter {
+  display: block;
+  margin: -7px auto 0;
+}
+}
+.box-product .product-controls.action-item .action-wrapper__title {
+  margin: 0;
+  font-size: 13px;
+}
+
+.box-product .product-controls.action-item .elem-share {
+  bottom: 0;
+}
+
+.box-product .product-controls.action-item .prod-price_old {
+  display: inline-block;
+  font-size: 23px;
+  line-height: 1.2;
+  position: relative;
+  margin-bottom: 20px;
+}
+.box-product .product-controls.action-item .prod-price_old::after {
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: 12px;
+  background: #fa3853;
+  width: 105%;
+  transform: rotate(-13deg);
+  height: 1px;
+}
+
+.box-product .product-controls.action-item .prod-price_old small{
+  font-size: 16px;
+}
+
+.box-product .product-controls.action-item .prod-price_old .rub {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+
+.box-product .product-controls.action-item .action-stick {
+  max-width: 90px;
+  height: 39px;
+  margin: 0 auto 20px;
+  background: #fa3853;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 30px;
+}
+.box-product .product-controls.action-item .action-stick p {
+  display: inline-block;
+  font-weight: 700;
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.box-product .product-controls.action-item .action-stick .small {
+  display: inline-block;
+  margin: 0;
+  margin-left: -5px;
+  vertical-align: top;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.box-product .product-controls.action-item .prod-price_new-title {
+  font-size: 14px;
+  font-family: "Muller", Arial, serif;
+  font-weight: 700;
+  margin-bottom: -7px;
+}
+
+.box-product .product-controls.action-item .stroked {
+  margin-bottom: 20px;
+}
+
+.box-product .product-controls .price {
+  font-size: 35px;
+  font-family: "Muller", Arial, serif;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.box-product .product-controls .price small {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #666;
+  letter-spacing: 0.05em;
+}
+
+.box-product .product-controls .price .rub {
+  font-family: 'rouble';
+  font-size: 24px;
+  color: #666;
+}
+
+
+.box-product .product-controls .price_old {
+  font-size: 22px;
+  font-family: "Muller", Arial, serif;
+  font-weight: 800;
+  /*margin-bottom: 24px;*/
+  text-decoration: line-through;
+}
+
+.box-product .product-controls .price_old small {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #666;
+  letter-spacing: 0.05em;
+}
+
+.box-product .product-controls .price_old .rub {
+  font-family: 'rouble';
+  font-size: 16px;
+  color: #666;
+}
+
+
+
+/*.box-snippet .info-wrapper.action-item .prod-name {
+  min-height: auto;
+}*/
+
+.box-snippet .info-wrapper.action-item .prod-price_old {
+  position: relative;
+  float: none;
+  display: inline-block;
+  font-weight: normal;
+  font-family: "Open Sans", Arial, serif;
+}
+.box-snippet .info-wrapper.action-item .prod-price_old::after {
+  content: '';
+  position: absolute;
+  right: -1px;
+  top: 15px;
+  background: #fa3853;
+  width: 107%;
+  transform: rotate(-14deg);
+  height: 1px;
+}
+
+.box-snippet .info-wrapper.action-item .price-wrapper {
+  margin-bottom: 18px; 
+}
+
+.box-snippet .info-wrapper.action-item .prod-price_new-title {
+  font-size: 12px;
+  font-family: "Muller", Arial, serif;
+  font-weight: 700;
+}
+
+.box-snippet .info-wrapper.action-item .prod-price_new{
+  color: #fa3853;
+}
+
+.box-snippet .info-wrapper.action-item .prod-price_new small,
+.box-snippet .info-wrapper.action-item .prod-price_new .rub {
+  color: #fbb6c8;
+}
+
+
+
+
+.box-snippet .img-wrapper.sticked .stick
+{
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  background: #f12259;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0px #000;
+}
+
+.box-snippet .img-wrapper.sticked .stick .text-wrapper
+{
+  position: absolute;
+  bottom: 15px;
+  left: 22px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: right;
+  font-size: 32px;
+  width: 47px;
+}
+
+.box-snippet .img-wrapper.sticked .stick .text-wrapper .short
+{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+@media (max-width: 767px) {
+
+  .box-product .product-controls.action-item .price {
+    text-align: center;
+  }
+
+  .box-product .product-controls .price_old {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    width: 50%;
+    text-align: left;
+  }
+}
+
+
+@media only screen and (max-width:480px) {
+  .prod-price_new-title {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1008px) and (max-width: 1279px) {
+  .box-snippet .info-wrapper.action-item .price-wrapper {
+    margin-bottom: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .box-snippet .info-wrapper.action-item .prod-price_new-title {
+    display: block;
+  }
+  .box-snippet .info-wrapper.action-item .price-wrapper {
+    margin-bottom: 18px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1008px) {
+  .box-snippet .info-wrapper.action-item .prod-price_old::after {
+    top: 10px;
+  }
+}
+
+@media (max-width: 1008px) {
+ .box-product .product-controls .prod-price_old  ~ .counter {
+   position: static; 
+   margin-bottom: 6px
+ }
+}
+@media (max-width: 767px) {
+  .box-product .product-controls .prod-price_old  ~  .price {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px !important;
+  }
+}
+
+
+
+.box-table_responsive.mod-cart .total_full {
+  margin: 0;
+}
+.box-table_responsive.mod-cart .total_full .price  {
+  color: #ff000a;
+}
+
+.box-table_responsive.mod-cart .total .price_discount {
+  position: relative;
+  padding-left: 5px;
+}
+
+.box-table_responsive.mod-cart .discount-basket {
+  font-size: 18px;
+  color: #888;
+}
+
+.box-table_responsive.mod-cart .total .price_discount::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 13px;
+  background: #fa3853;
+  width: 72%;
+  transform: rotate(-9deg);
+  height: 2px;
+}
